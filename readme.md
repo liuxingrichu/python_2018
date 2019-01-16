@@ -7,3 +7,8 @@
 	5. [Windows之jupyter的安装与使用](01setup_env/day005.md)
 	6. [CentOS 7 之搭建虚拟环境、jupyter环境](01setup_env/day006.md)
 	7. [线上代码调试](01setup_env/day007.md)
+
+2. 办公自动化
+	1. [word](03automate/day001.md)
+	2. [excel](03automate/day002.md)
+	3. [pdf](03automate/day003.md)
