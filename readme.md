@@ -11,4 +11,5 @@
 2. 办公自动化
 	1. [word](03automate/day001.md)
 	2. [excel](03automate/day002.md)
-	3. [pdf](03automate/day003.md)
+	3. [PPT](03automate/day003.md)
+	3. [pdf](03automate/day004.md)
