@@ -13,3 +13,7 @@
 	2. [excel](03automate/day002.md)
 	3. [PPT](03automate/day003.md)
 	3. [pdf](03automate/day004.md)
+3. 时间
+	1. [计算区时](03automate/day005.md)
+	2. [dateutil第三方模块](03automate/day005.md)
+	3. [案例：定时闹钟](03automate/day006.md)
