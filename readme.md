@@ -17,3 +17,6 @@
 	1. [计算区时](03automate/day005.md)
 	2. [dateutil第三方模块](03automate/day005.md)
 	3. [案例：定时闹钟](03automate/day006.md)
+	4. [案例： 时间转换器](03automate/day007.md)
+	5. [思路：KV编程论](03automate/day008.md)
+	6. [案例：汉字日期处理](03automate/day009.md)
