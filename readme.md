@@ -21,3 +21,7 @@
 	5. [思路：KV编程论](03automate/day008.md)
 	6. [案例：汉字日期处理](03automate/day009.md)
 	7. [标准库：json](03automate/day010.md)
+	8. [API](03automate/day011.md)
+	9. [定制天气预报](03automate/day011.md)
+	10. []()
+	11. []()
