@@ -27,3 +27,7 @@
 	11. [查询资料](03automate/day013.md)
 	12. [案例优化：状态码](03automate/day013.md)
 	13. []()
+
+5. 前端基础
+	1. [html环境vscode部署](05web_basic/day008.md)
+	2. [JavaScript环境vscode部署](05web_basic/day008.md)
