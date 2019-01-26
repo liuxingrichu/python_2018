@@ -26,7 +26,7 @@
 	10. [案例：博客词频统计](03automate/day012.md)
 	11. [查询资料](03automate/day013.md)
 	12. [案例优化：状态码](03automate/day013.md)
-	13. []()
+	13. [邮件操作](03automate/day014.md)
 
 5. 前端基础
 	1. [html环境vscode部署](05web_basic/day008.md)
