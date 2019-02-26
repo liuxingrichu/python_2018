@@ -29,6 +29,8 @@
 	13. [邮件操作](03automate/day014.md)
 	14. [邮件：发送给单人，不带附件](03automate/day014.md)
 	15. [邮件：带附件、发送给多人](03automate/day015.md)
+	16. [邮件：附件可伸缩](03automate/day016.md)
+	17. []()
 
 5. 前端基础
 	1. [html环境vscode部署](05web_basic/day008.md)
