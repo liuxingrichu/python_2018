@@ -32,6 +32,7 @@
 	16. [邮件：附件可伸缩](03automate/day016.md)
 	17. [案例：注册用户邮件提醒](03automate/day017.md)
 	18. [邮件：用类的结构化思维设计](03automate/day018.md)
+	19. [图片处理](03automate/day019.md)
 
 5. 前端基础
 	1. [html环境vscode部署](05web_basic/day008.md)
