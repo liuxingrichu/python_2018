@@ -1,4 +1,6 @@
 ### 目录 ###
+0. 课堂练习题
+	1. [目录](00lesson_practice/readme.md)
 1. 环境部署
 	1. [软件下载与安装](01setup_env/day001.md)
 	2. [虚拟环境配置](01setup_env/day002.md)
@@ -35,5 +37,8 @@
 	19. [图片处理](03automate/day019.md)
 
 5. 前端基础
-	1. [html环境vscode部署](05web_basic/day008.md)
+	1. 
+	2. 
+	3. 
+	4. [html环境vscode部署](05web_basic/day008.md)
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
