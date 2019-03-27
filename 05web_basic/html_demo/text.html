@@ -9,11 +9,31 @@
 </head>
 
 <body>
+    <a href="#">超链接：在本页中，跳转</a>
+    <a href="https://codepen.io/pen/">超链接：跳转指定链接，并在当前页面打开</a>
+    <a href="https://codepen.io/pen/" target="_blank">超链接：跳转指定链接，并用新标签打开链接</a>
+    <img src="图片来源" alt="无法显示照片时，提示信息">
+    <img src="web2.0.jpg" alt="无法显示照片时，提示信息">
+    <!-- autoplay:  视频在就绪后马上播放-->
+    <!-- controls：向用户显示控件，比如播放按钮 -->
+    <!-- muted：规定视频的音频输出应该被静音 -->
+    <!-- preload：视频在页面加载时进行加载，并预备播放 -->
+    <!-- poster：规定视频下载时显示的图像，或者在用户点击播放按钮前显示的图像。 -->
+    <video src="第7讲 字符串.webm" width="360" height="240" controls autoplay muted preload="metadata"
+        poster="web2.0.jpg">视频</video>
+    <!-- 兼容性问题 -->
+    <h2>添加多个视频源</h2>
+    <!-- type：视频格式 -->
+    <video width="360" height="240" controls preload="metadata" poster="images/poster.png">
+        <source src="images/timessquare.webm" type="video/webm">
+        <source src="images/timessquare.ogv" type="video/ogv">
+        <source src="images/timessquare.mp4" type="video/mp4">
+    </video>
+
     <b>关键字</b>
     <!-- 换行 -->
     <br>
     <em>强调</em>
-    <p>段落</p>
     <i>外文词汇或科学相关术语</i>
     <strong>表示重要内容</strong>
     <sup>表示上标文字</sup>
