@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表格</title>
+</head>
+
+<body>
+    <!-- 表格属性border:边框  -->
+    <table border="1">
+        <!-- 表格标题（位置可开始或结束，其效果一致）：caption -->
+        <caption>1-8 课程表</caption>
+        <!-- 表格行：tr -->
+        <thead>
+            <!-- 表格头: th -->
+            <th>班级名称</th>
+            <th>上课地点</th>
+            <th>课程名称</th>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- 表格列：td -->
+                <td>计科1801</td>
+                <td>信工楼6012</td>
+                <td>前端开发技术</td>
+            </tr>
+            <tr>
+                <td>计科1802</td>
+                <!-- 合并列单元格：rowspan -->
+                <td rowspan="2">办公楼5016</td>
+                <td rowspan="2">数据分析</td>
+            </tr>
+            <tr>
+                <td>计科1803</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- 合并行单元格： colspan -->
+            <td colspan="2">制表人</td>
+            <td>春花秋月</td>
+        </tfoot>
+    </table>
+</body>
+
+</html>
