@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表单1</title>
+</head>
+
+<body>
+    <!-- action参数：提交地址 -->
+    <!-- method参数：提交方式 -->
+    <!-- enctype="multipart/form-data"：提交文件 -->
+    <form action="" method="GET" enctype="multipart/form-data">
+        用户名：<input type="text">
+        <br>
+        <!-- autocomplete="off"：自动完成，默认开启 -->
+        <!-- 输入框文字说明：推荐使用label方式 -->
+        <!-- lable的for参数值与input的id参数值一致 -->
+        <label for="username">用户名：
+            <input type="text" autocomplete="off" id="username">
+        </label>
+        <button>提交</button>
+        <hr>
+        <!-- autofocus: 自动聚焦，默认True -->
+        <input type="text" autofocus>
+        <hr>
+        <!-- disabled: 禁止表单 -->
+        <input type="text" disabled>
+        <!-- 分组显示 -->
+        <fieldset>
+            <legend>分组</legend>
+            <label for="">用户名：
+                <input type="text">
+            </label>
+            <br>
+            <label for="">密码：
+                <!-- 密码类型 -->
+                <input type="password">
+            </label>
+        </fieldset>
+        <button type="reset">重置</button>
+    </form>
+</body>
+
+</html>

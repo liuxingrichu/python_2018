@@ -41,6 +41,7 @@
 	2. [html标签、文本元素、分组元素](05web_basic/day002.md)
 	3. [html标签：分节标签、html5标志性标签](05web_basic/day003.md)
 	4. [html标签：实体字符或特殊字符、表格](05web_basic/day004.md)
-	5. 
+	5. [html标签：form之一](05web_basic/day005.md)
+	6. 
 	4. [html环境vscode部署](05web_basic/day008.md)
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
