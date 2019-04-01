@@ -27,13 +27,21 @@ lst = [1, 2, 4, 1, 2, 3, 3, 5]
 # print(lst)
 
 # 方法四：依次取元素，遍历列表，删除与其重复的元素
+# print(lst)
+# times = -1
+# for i in lst:
+#     times += 1
+#     count = -1
+#     for j in lst[times+1:]:
+#         count += 1
+#         if i == j:
+#             del lst[times + count + 1]
+# print(lst)     
+
+# 方法五：利用字典键唯一性去重
 print(lst)
-times = -1
-for i in lst:
-    times += 1
-    count = -1
-    for j in lst[times+1:]:
-        count += 1
-        if i == j:
-            del lst[times + count + 1]
-print(lst)            
+dict_tmp = {}.fromkeys(lst)
+dst_list = list()
+for key in dict_tmp:
+    dst_list.append(key)
+print(dst_list)

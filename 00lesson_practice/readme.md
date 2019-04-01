@@ -11,5 +11,9 @@
 		2. [输入整数有序输出](data_structure/sort_print.py)
 		3. [乘法口诀表](data_structure/multiply_table.py)
 	3. 字典
+		1. [删除列表中的重复元素](data_structure/del_repeat_element.py)
+		2. [三层菜单](data_structure/three_menu.py)
+	4. 综合
+		1. [购物车]()
 3. 函数
 4. 类
