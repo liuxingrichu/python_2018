@@ -17,3 +17,10 @@
 		1. [购物车]()
 3. 函数
 4. 类
+5. 绘图
+	1. [小猪佩奇](turtle_practice/pig.py)
+	2. [同心圆](turtle_practice/circle.py)
+	3. [五环](turtle_practice/five_circles)
+6. 打包
+	1. pip install pyinstaller
+	2. pyinstaller -F pig.py
