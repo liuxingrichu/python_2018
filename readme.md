@@ -46,6 +46,7 @@
 	7. [html标签：form之三](05web_basic/day007.md)
 	8. [html标签：form之四](05web_basic/day008.md)
 	9. [元素使用原则](05web_basic/day008.md)
+	10. [案例:购物车HTML版本](05web_basic/html_demo/shopping_cart.html)
 	6. 
 	4. [html环境vscode部署](05web_basic/day008.md)
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>案例:购物车HTML版本</title>
+</head>
+
+<body>
+    <nav>
+        <li>汽车</li>
+        <li>水果</li>
+        <li>图书</li>
+    </nav>
+    <aside>
+        <div>
+            <p>最新商品推荐</p>
+            <li>001香蕉</li>
+            <li>002橙子</li>
+            <li>003苹果</li>
+        </div>
+        <div>
+            <p>商品排名</p>
+            <li>奥迪A8</li>
+            <li>泰国香蕉</li>
+            <li>前端开发</li>
+        </div>
+    </aside>
+    <section>
+        <table border="1">
+            <caption>我的购物车</caption>
+            <tr>
+                <th>是否购买</th>
+                <th>商品名称</th>
+                <th>商品链接</th>
+                <th>商品价格</th>
+                <th>商品数量</th>
+                <th>总计（元）</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="" id="">
+                </td>
+                <td>菲律宾香蕉</td>
+                <td>
+                    <a href="https://www.bananamall.cn/" target="_blank" rel="noopener noreferrer">
+                        <img src="banana.jpg" alt="暂无照片">
+                    </a>
+                </td>
+                <td>26元/斤</td>
+                <td>1斤</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>宝马</td>
+                <td>
+                    <a href="https://www.autohome.com.cn/beijing/" target="_blank" rel="noopener noreferrer">
+                        <img src="car.jpg" alt="暂无照片">
+                    </a>
+                </td>
+                <td>68万-118万</td>
+                <td>100万</td>
+                <td>100万</td>
+            </tr>
+            <tr>
+                <td colspan="3">合计</td>
+                <td>2</td>
+                <td>100万</td>
+            </tr>
+        </table>
+        <form action="">
+            <label for="">收货地址
+                <select name="" id="">
+                    <option value="北京天安门">北京天安门</option>
+                    <option value="杭州西湖">杭州西湖</option>
+                    <option value="上海外滩" selected>上海外滩</option>
+                </select>
+            </label>
+        </form>
+        <div>
+            <p>付款方式</p>
+            <label for="">支付宝
+                <input type="radio" name="money" id="">
+            </label>
+            <label for="">微信
+                <input type="radio" name="money" id="">
+            </label>
+            <label for="">银联
+                <input type="radio" name="money" id="">
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="提交">
+        </div>
+    </section>
+</body>
+
+</html>
