@@ -37,16 +37,19 @@
 	19. [图片处理](03automate/day019.md)
 
 5. 前端基础
-	1. [环境部署、快捷方式、在线编程](05web_basic/day001.md)
-	2. [html标签、文本元素、分组元素](05web_basic/day002.md)
-	3. [html标签：分节标签、html5标志性标签](05web_basic/day003.md)
-	4. [html标签：实体字符或特殊字符、表格](05web_basic/day004.md)
-	5. [html标签：form之一](05web_basic/day005.md)
-	6. [html标签：form之二](05web_basic/day006.md)
-	7. [html标签：form之三](05web_basic/day007.md)
-	8. [html标签：form之四](05web_basic/day008.md)
-	9. [元素使用原则](05web_basic/day008.md)
-	10. [案例:购物车HTML版本](05web_basic/html_demo/shopping_cart.html)
-	6. 
-	4. [html环境vscode部署](05web_basic/day008.md)
+	1. [环境部署、快捷方式、在线编程](05web_basic/day01.md)
+	2. HTML5
+		1. [html标签、文本元素、分组元素](05web_basic/HTML5/day01.md)
+		2. [html标签：分节标签、html5标志性标签](05web_basic/HTML5/day02.md)
+		3. [html标签：实体字符或特殊字符、表格](05web_basic/HTML5/day03.md)
+		4. [html标签：form之一](05web_basic/HTML5/day04.md)
+		5. [html标签：form之二](05web_basic/HTML5/day05.md)
+		6. [html标签：form之三](05web_basic/HTML5/day06.md)
+		7. [html标签：form之四](05web_basic/HTML5/day07.md)
+		8. [元素使用原则](05web_basic/HTML5/day07.md)
+		9. [案例:购物车HTML版本](05web_basic/html_demo/shopping_cart.html)
+	3. CSS3
+		1. [CSS简介、谷歌浏览器样式使用技巧](05web_basic/CSS3/day01.md)
+		2. [CSS三种使用方式](05web_basic/CSS3/day01.md)
+		3. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
