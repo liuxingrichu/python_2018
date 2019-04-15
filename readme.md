@@ -51,5 +51,7 @@
 	3. CSS3
 		1. [CSS简介、谷歌浏览器样式使用技巧](05web_basic/CSS3/day01.md)
 		2. [CSS三种使用方式](05web_basic/CSS3/day01.md)
-		3. 
+		3. [KV编程论：盒模型](05web_basic/CSS3/day02.md)
+		4. [选择器](05web_basic/CSS3/day02.md)
+		5. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)

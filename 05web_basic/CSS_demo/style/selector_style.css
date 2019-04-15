@@ -1,0 +1,19 @@
+.class_demo {
+    /* 字体颜色 */
+    color: green;
+}
+
+#id_demo {
+    /* 删除线 */
+    text-decoration: line-through;
+}
+
+p {
+    /* 字体加粗 */
+    font-weight: bold;
+}
+
+* {
+    /* 背景色 */
+    background: red;
+}
