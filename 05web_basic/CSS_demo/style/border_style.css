@@ -1,0 +1,19 @@
+.my-border {
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px;
+    border: 1px solid red;
+    padding: 10px 20px 30px;
+}
+
+.border-image {
+    width: 200px;
+    height: 200px;
+    border: 60px solid gold;
+    /* 边框图片地址 */
+    border-image-source: url(https://mdn.mozillademos.org/files/13060/border-image.png);
+    /* 九宫格：将空间分成九宫格，参数可写数字、百分比 */
+    border-image-slice: 40;
+    /* 重复方式: round 平滑方式 */
+    border-image-repeat: round;
+}
