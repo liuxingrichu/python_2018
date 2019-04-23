@@ -16,6 +16,7 @@
 	4. 综合
 		1. [购物车](data_structure/shopping_cart.py)
 3. 函数
+	1. [二分查找](function/binary_search.py)
 4. 类
 5. 绘图
 	1. [小猪佩奇](turtle_practice/pig.py)
