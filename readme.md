@@ -55,7 +55,8 @@
 		4. [选择器](05web_basic/CSS3/day02.md)
 		5. [颜色之边框](05web_basic/CSS3/day03.md)
 		6. [颜色之背景](05web_basic/CSS3/day03.md)
-		7. 
+		7. [颜色之文字](05web_basic/CSS3/day03.md)
+		8. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
 	1. [环境部署]()

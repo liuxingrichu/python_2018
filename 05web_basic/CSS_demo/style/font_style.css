@@ -1,0 +1,9 @@
+.font-color {
+    font: 100;
+    /* 设置字体使用的系列，排在前面的优先 */
+    font-family: 'Courier New', Courier, monospace;
+    /* 字体大小 */
+    font-size: 50px;
+    /* 设置字体加粗 */
+    font-weight: bold;
+}

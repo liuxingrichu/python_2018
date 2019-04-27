@@ -90,4 +90,19 @@
 					}
 
 	- 文字
+		- [字体](https://html-css-js.com/css/generator/font/)
+		- [字体阴影](https://html-css-js.com/css/generator/text-shadow/)
 
+				HTML文件：
+					<div class="font-color">梳理字体常用属性</div>
+
+				CSS文件：
+					.font-color{
+					    font: 100;
+					    /* 设置字体使用的系列，排在前面的优先 */
+					    font-family: 'Courier New', Courier, monospace;
+					    /* 字体大小 */
+					    font-size: 50px;
+					    /* 设置字体加粗 */
+					    font-weight: bold;
+					}
