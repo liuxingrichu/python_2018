@@ -61,4 +61,33 @@
 						}
 
 	- 背景
+		- [背景生成](https://html-css-js.com/css/generator/background/)
+		- [背景渐变](https://html-css-js.com/css/generator/gradient/)
+
+				HTML文件：
+					<div class="bg-image">背景色</div>
+				    <div class="bg-image-big">背景大图</div>
+		
+				CSS文件
+					.bg-image {
+					    width: 300px;
+					    height: 200px;
+					    /* 背景设置 */
+					    background: #DCF51E url(https://html-css-js.com/images/smiley.png) repeat-y scroll 9px 13px;
+					    /* 透明度 */
+					    opacity: .5;
+					}
+					
+					.bg-image-big {
+					    width: 800px;
+					    height: 9600px;
+					}
+					
+					body {
+					    background: #abc url("https://images.unsplash.com/photo-1533263272401-a58fc34341c2?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=a1bf1441aa5e3d0127583edc12d59880") no-repeat;
+					    /* 设置背景图像是否固定或者随着页面的其余部分滚动 */
+					    background-attachment: fixed;
+					}
+
 	- 文字
+

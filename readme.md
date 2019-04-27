@@ -54,5 +54,8 @@
 		3. [KV编程论：盒模型](05web_basic/CSS3/day02.md)
 		4. [选择器](05web_basic/CSS3/day02.md)
 		5. [颜色之边框](05web_basic/CSS3/day03.md)
-		6. 
+		6. [颜色之背景](05web_basic/CSS3/day03.md)
+		7. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
+7. Django
+	1. [环境部署]()
