@@ -1,0 +1,21 @@
+p {
+    color: red;
+    border: 1px solid yellow;
+    padding: 20px;
+    background-color: 4564ff;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 2px solid red;
+}
+
+.abs {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
