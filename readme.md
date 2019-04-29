@@ -59,4 +59,4 @@
 		8. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
-	1. [环境部署]()
+	1. [django官网文档之一](07Django/day001.md)
