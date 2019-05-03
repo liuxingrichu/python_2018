@@ -62,3 +62,4 @@
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)
 	2. [django官网文档之二：配置管理用户 管理界面注册APP 配置不同视图 视图函数中的常用方法](07Django/day002.md)
 	3. [django官网文档之三：模板文件 模板优化](07Django/day003.md)
+	4. [django官网文档之四：重构代码 竞争条件](07Django/day004.md)
