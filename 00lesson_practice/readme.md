@@ -18,6 +18,9 @@
 3. 函数
 	1. [二分查找](function/binary_search.py)
 4. 类
+5. 模块
+	1. [验证码](module/identify_code.py)
+	2. [耗时统计](module/time_consume.py)
 5. 绘图
 	1. [小猪佩奇](turtle_practice/pig.py)
 	2. [同心圆](turtle_practice/circle.py)
