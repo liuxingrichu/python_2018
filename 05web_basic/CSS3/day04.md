@@ -1,5 +1,8 @@
 ### 布局之position ###
 
+之前position布局用的多，现在有其他更好的方式实现布局。
+
+
 	HTML文件：
 	    <p>位置1</p>
 	    <div class="box">

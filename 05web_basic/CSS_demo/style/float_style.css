@@ -1,0 +1,40 @@
+.container {
+    background-color: aqua;
+}
+
+.header{
+    height: 100px;
+    background-color: blue;
+}
+
+.menu {
+    height: 400px;
+    width: 20%;
+    float: left;
+    background-color: aliceblue;
+}
+
+.content {
+    width: 79%;
+    height: 400px;
+    float: right;
+    background-color: blanchedalmond;
+}
+
+.footer {
+    /* 清除高度崩塌 */
+    clear: both;
+    height: 60px;
+    background-color: cadetblue;
+}
+
+/* 伪元素方式查找元素 */
+.content div:nth-child(1) {
+    float: left;
+    width: 49%;
+}
+
+.content div:nth-child(2) {
+    float: right;
+    width: 49%;
+}
