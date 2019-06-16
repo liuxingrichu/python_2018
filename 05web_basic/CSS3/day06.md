@@ -1,4 +1,4 @@
-### 布局之flexbox ###
+### 布局之flexbox基础 ###
 
 [青蛙游戏](https://flexboxfroggy.com/#zh-cn)
 

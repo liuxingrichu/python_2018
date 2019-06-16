@@ -1,0 +1,57 @@
+### 布局之flexbox实践 ###
+
+[Demo](../CSS_demo/flexbox.html)
+
+	HTML文件：
+
+	    <header>HEADER</header>
+	    <section>
+	        <div>menu</div>
+	        <div>content</div>
+	        <div>aside</div>
+	    </section>
+	    <footer>FOOTER</footer>
+
+
+	CSS文件：
+
+		/* 多个元素的写法 */
+		header,
+		footer {
+		    height: 60px;
+		    background: rgb(24, 88, 151);
+		    color: white;
+		    text-align: center;
+		}
+		
+		/* 从上到下依次渲染，重复的话，下面的配置会覆盖上面的配置 */
+		footer {
+		    background-color: rgb(134, 73, 73);
+		}
+		
+		section div {
+		    border: 3px solid rgb(187, 255, 0);
+		    margin: 5px;
+		    padding: 5px;
+		}
+		
+		section {
+		    display: flex;
+		    background-color: goldenrod;
+		    height: 360px;
+		}
+		
+		/* 第一个div元素 */
+		div:first-child {
+		    /* 一个flex单位 */
+		    flex: 1;
+		}
+		
+		/* 第二个div元素 */
+		div:nth-child(2) {
+		    flex: 3;
+		}
+		
+		div:last-child {
+		    flex: 1;
+		}
