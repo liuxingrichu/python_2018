@@ -58,7 +58,8 @@
 		7. [颜色之文字](05web_basic/CSS3/day03.md)
 		8. [布局之position](05web_basic/CSS3/day04.md)
 		9. [布局之float](05web_basic/CSS3/day05.md)
-		10. 
+		10. [布局之flexbox](05web_basic/CSS3/day06.md)
+		11. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)
