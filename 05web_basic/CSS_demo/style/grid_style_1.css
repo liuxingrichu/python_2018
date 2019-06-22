@@ -1,0 +1,44 @@
+header {
+    height: 60px;
+    background: rgb(24, 88, 151);
+    color: white;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 300px;
+    grid-gap: 5px;
+    grid-template-areas:
+        "m m m c c c c c c s s .";
+    background-color: rgb(178, 236, 71);
+}
+
+div {
+    border: 3px solid rgb(187, 255, 0);
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(136, 187, 16);
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(134, 73, 73);
+    text-align: center;
+}
+
+.menu {
+    grid-area: m;
+    background-color: #456;
+}
+
+.content {
+    grid-area: c;
+    background-color: #4ac;
+}
+
+.side {
+    grid-area: s;
+    background-color: #abc;
+}
