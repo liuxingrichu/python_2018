@@ -61,7 +61,9 @@
 		10. [布局之flexbox基础](05web_basic/CSS3/day06.md)
 		11. [布局之flexbox实践](05web_basic/CSS3/day07.md)
 		12. [布局之grid网格系统](05web_basic/CSS3/day08.md)
-		13. 
+		13. [布局之grid实践](05web_basic/CSS3/day09.md)
+		14. [CSS的常用尺寸单位](05web_basic/CSS3/day10.md)
+		15. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)
