@@ -1,18 +1,12 @@
-### 动画 ###
+<!DOCTYPE html>
+<html lang="en">
 
-- [第三方工具](https://daneden.github.io/animate.css/)
-	- 使用方法：
-		- 选择相应效果，例如tada；
-		- 打开animate.css，找到tada的关键帧；
-		- 拷贝代码到自己的配置文件；
-		- 配置动画效果。
-
-- [其它动画效果](https://envato.com/blog/pure-css-animation-snippets/)
-
-
-举例：
-
-	<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动画</title>
+    <style>
         .blink {
             /* 参数说明：blink是关键帧的名字，infinite是表示永远循环 */
             animation: blink 0.5s infinite;
@@ -74,9 +68,11 @@
             }
         }
     </style>
+</head>
 
-
-	<p class="blink">一闪一闪亮晶晶，满天都是小星星</p>
+<body>
+    <p class="blink">一闪一闪亮晶晶，满天都是小星星</p>
     <p class="jump blink tada">跳啊跳</p>
+</body>
 
-
+</html>
