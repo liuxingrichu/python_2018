@@ -45,3 +45,29 @@ html文件举例：
 	<button class="hvr-pulse ">按钮</button>
     <!-- 配置多个属性 -->
     <a class="btn hvr-radial-out hvr-pulse ">a标签的按钮</a>
+
+
+- hover.css内容的部分说明：
+	- 一般参数取名规则是hvr-xxx，例如.hvr-grow
+	- .hvr-grow:hover表示鼠标放在上面，该方法为伪类触发。
+	- .hvr-grow:focus表示点击。
+	- .hvr-grow:active表示激活。 
+
+举例： 
+
+	.hvr-grow {
+	  display: inline-block;
+	  vertical-align: middle;
+	  -webkit-transform: perspective(1px) translateZ(0);
+	  transform: perspective(1px) translateZ(0);
+	  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	  -webkit-transition-duration: 0.3s;
+	  transition-duration: 0.3s;
+	  -webkit-transition-property: transform;
+	  transition-property: transform;
+	}
+	
+	.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);
+	}
