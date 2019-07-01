@@ -65,7 +65,8 @@
 		14. [CSS的常用尺寸单位](05web_basic/CSS3/day10.md)
 		15. [转换、过渡](05web_basic/CSS3/day11.md)
 		16. [动画](05web_basic/CSS3/day12.md)
-		17. 
+		17. [CSS继承与优先级](05web_basic/CSS3/day13.md)
+		18. 
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)

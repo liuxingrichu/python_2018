@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css-tips</title>
+    <style>
+        /* ID选择器：id */
+        #parent {
+            color: green;
+        }
+
+        #parent1 {
+            color: green;
+        }
+
+        #id-h1 {
+            color: orange;
+        }
+
+        /* 类选择器：class */
+        .title {
+            color: red;
+        }
+
+        /* 类型选择器：元素 */
+        h1 {
+            color: purple;
+        }
+
+        /* ID选择器 */
+        * #foo {
+            color: green;
+        }
+
+        /* 属性选择器 */
+        *[id="foo"] {
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 继承 -->
+    <div id="parent1">
+        <p>parent</p>
+    </div>
+    <!-- 优先级 -->
+    <div id="parent">
+        <h1 class="title" id="id-h1">Here is a title!</h1>
+    </div>
+    <p id="foo">I am a sample text.</p>
+</body>
+
+</html>
