@@ -71,7 +71,8 @@
 		17. [CSS继承与优先级](05web_basic/CSS3/day13.md)
 		18. [编写规则](05web_basic/CSS3/day14.md)
 		19. [从设计到开发的流程](05web_basic/CSS3/day14.md)
-		20. []()
+		20. [案例：明信片开发：正面/反面](05web_basic/CSS3/day15.md)
+		21. []()
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)
