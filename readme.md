@@ -39,6 +39,8 @@
 
 5. 前端基础
 	1. [环境部署、快捷方式、在线编程](05web_basic/day01.md)
+	2. [Chrome安装play animate.css插件](05web_basic/day01.md)
+	3. [CSS学习模板](05web_basic/day01.md)
 	2. HTML5
 		1. [html标签、文本元素、分组元素](05web_basic/HTML5/day01.md)
 		2. [html标签：分节标签、html5标志性标签](05web_basic/HTML5/day02.md)

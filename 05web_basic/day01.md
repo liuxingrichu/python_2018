@@ -42,3 +42,15 @@
 ### 在线编程 ###
 - [codepen](https://codepen.io/pen/)
 - [w3school](http://www.w3school.com.cn/)
+
+### Chrome安装play animate.css插件 ###
+- [Chrome官方插件应用商店](https://chrome.google.com/webstore/category/extensions?hl=zh-CN)
+- 使用方法：
+	1. 在“搜索扩展程序”窗口，搜索“animate”。
+	2. 找到“animate playerbox”，点击“添加至Chrome”。
+	3. 等待安装完成即可。
+	4. 使用时，点击右上方的星星图标。
+
+
+### CSS学习模板 ###
+- [禅意花园](http://www.csszengarden.com/tr/zh-cn/)
