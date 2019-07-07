@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪元素选择器</title>
+    <style>
+        /* 在文本前添加--，并为红色 */
+        h3::before {
+            content: "-->";
+            color: red;
+        }
+
+        /* p标签的首个字符 */
+        p::first-letter {
+            font-weight: bold;
+        }
+
+        td {
+            width: 600px;
+        }
+
+        .resume {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="resume">个人简历</h2>
+    <h3>基本信息</h3>
+    <label for="">姓名<input type="text"></label>
+    <label for="">性别<input type="text"></label>
+    <label for="">出生年月<input type="text"></label>
+    <h3>教育经历</h3>
+    <table>
+        <thead>
+            <td>时间</td>
+            <td>学校</td>
+            <td>学历</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2018.9-至今</td>
+                <td>耶鲁大学</td>
+                <td>博士研究生</td>
+            </tr>
+            <tr>
+                <td>2015.9-2018.7</td>
+                <td>清华大学</td>
+                <td>硕士研究生</td>
+            </tr>
+            <tr>
+                <td>2011.7-2015.7</td>
+                <td>清华大学</td>
+                <td>本科</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>项目介绍</h3>
+    <p>在博士期间，发表积极心理学研究论文，收录Science，影响因子为3.2。</p>
+    <p>在研究生期间，发表数据挖掘研究论文，收录nature，影响因子为2.6。</p>
+</body>
+
+</html>

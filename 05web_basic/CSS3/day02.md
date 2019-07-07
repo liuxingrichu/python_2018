@@ -273,5 +273,24 @@
 	        background-color: gold;
 	    }
 
-8. 伪元素选择器
+8. [伪元素选择器](../CSS_demo/pseudo-element.html)
 
+	常用伪元素表达式
+	
+		e::first-letter		第一字符
+		e::first-line		首行
+		e::before			在文本前
+		e::after			在文本后
+
+	CSS文件：
+
+        /* 在文本前添加--，并为红色 */
+        h3::before {
+            content: "-->";
+            color: red;
+        }
+
+        /* p标签的首个字符 */
+        p::first-letter {
+            font-weight: bold;
+        }
