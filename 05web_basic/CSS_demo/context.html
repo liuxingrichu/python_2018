@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>上下文选择器</title>
+    <style>
+        /* 选中id为outer的ul元素，其下面的所有li，但不包含里面的ul元素 */
+        ul#outer li {
+            background-color: blue;
+        }
+
+        /* 选中id为outer的ul元素，其下面第一层的所有li，但不包含ul元素里面的li元素 */
+        ul#outer>li {
+            color: white;
+        }
+
+        /* 等效于.inside{} */
+        *.inside {
+            /* 标签标记不显示 */
+            list-style-type: none;
+        }
+
+        /* 等效于[disabled]{} */
+        *[disabled] {
+            cursor: not-allowed;
+        }
+
+        /* 要选择ul#outer中，包含的后代元素li，但其包括ul#outer子元素，
+        等价于选择其第二代后代元素、第三代后代元素......中的li元素。
+        此时，通配符*，起到了层次站位的作用。 */
+        ul#outer>* li {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="outer">
+        <li>姓名</li>
+        <input type="text">
+        <li>年龄</li>
+        <input type="text" disabled>
+        <li>性别</li>
+        <ul>
+            <li class="inside">男</li>
+            <li class="inside">女</li>
+        </ul>
+        <li>Do you love me?</li>
+        <ul>
+            <li>True</li>
+            <li>False</li>
+        </ul>
+        <li>Which do you like best?</li>
+        <input type="text" disabled>
+    </ul>
+</body>
+
+</html>
