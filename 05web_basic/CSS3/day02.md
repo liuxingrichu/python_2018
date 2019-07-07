@@ -131,7 +131,7 @@
 				2. e1，e2，有一个先后关系，一定是e1在前面，e2在后面。
 				3. e2是e1是紧邻的关系。
 	
-		5. *
+		5. 通配符*
 			- 匹配任意一个元素
 			- 有时，可以起到层次站位的作用。
 
@@ -189,3 +189,89 @@
         ul#outer>* li {
             color: red;
         }
+
+7. [伪类选择器](../CSS_demo/pseudo-class.html)
+
+
+	第一种：结构化的伪类选择器
+
+		e:first-child		第一个元素
+		e:last-child		最后一个元素
+		e:nth-child(n)		第n个元素
+		
+	第二种：UI伪类选择器
+
+		a:visited		已访问的a标签
+		a:link			未访问的a标签
+		e:hover			被鼠标选中时，生效
+		e:focus			元素获得焦点，即在上面操作
+		e:checked		一般，用到单选、复选框上。被选中时，选中。
+		e:active		元素被激活：鼠标点击到被释放，即中间的一个过程
+		e:target		当e元素是通过一个文档类链接导航到的时候，选择e元素
+
+
+	HTML文件：
+
+		<caption>问卷清单</caption>
+	    <ul id="outer">
+	        <li>姓名</li>
+	        <li>年龄</li>
+	        <li>性别
+	            <ul>
+	                <li>Female</li>
+	                <li>Male</li>
+	            </ul>
+	        </li>
+	    </ul>
+	    <table border="1">
+	        <caption id="score">考试成绩单</caption>
+	        <thead>
+	            <th>科目</th>
+	            <th>姓名</th>
+	            <th>成绩</th>
+	        </thead>
+	        <tbody>
+	            ......
+	        </tbody>
+			<tfoot>
+	            <td colspan="2">阅卷人</td>
+	            <td>David</td>
+	        </tfoot>
+	    </table>
+	    <a href="#score">查询成绩</a>
+
+	CSS文件：
+	
+		/* 选择id为outer的ul元素，下面的li子元素中的第一个li元素 */
+	    ul#outer>li:first-child {
+	        color: red;
+	    }
+	
+	    /* 选择id为outer的ul元素，下面的li子元素中的最后一个li元素 */
+	    ul#outer>li:last-child {
+	        color: #999;
+	    }
+	
+	    /* 选择id为outer的ul元素，下面的li子元素中的第二个li元素 */
+	    ul#outer>li:nth-child(2) {
+	        color: green;
+	    }
+	
+	    /* 表格主体部分，奇数行不同颜色显示 */
+	    table tbody tr:nth-child(2n+1) {
+	        background: #ccc;
+	    }
+	
+	    /* 被鼠标选中 */
+	    a:hover {
+	        background-color: blue;
+	        color: #fff;
+	    }
+	
+	    /* 通过一个文档类链接导航到的时候 */
+	    table caption:target {
+	        background-color: gold;
+	    }
+
+8. 伪元素选择器
+

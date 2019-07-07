@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>伪类选择器</title>
+    <style>
+        /* 选择id为outer的ul元素，下面的li子元素中的第一个li元素 */
+        ul#outer>li:first-child {
+            color: red;
+        }
+
+        /* 选择id为outer的ul元素，下面的li子元素中的最后一个li元素 */
+        ul#outer>li:last-child {
+            color: #999;
+        }
+
+        /* 选择id为outer的ul元素，下面的li子元素中的第二个li元素 */
+        ul#outer>li:nth-child(2) {
+            color: green;
+        }
+
+        /* 表格主体部分，奇数行不同颜色显示 */
+        table tbody tr:nth-child(2n+1) {
+            background: #ccc;
+        }
+
+        /* 被鼠标选中 */
+        a:hover {
+            background-color: blue;
+            color: #fff;
+        }
+
+        /* 通过一个文档类链接导航到的时候 */
+        table caption:target {
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <caption>问卷清单</caption>
+    <ul id="outer">
+        <li>姓名</li>
+        <li>年龄</li>
+        <li>性别
+            <ul>
+                <li>Female</li>
+                <li>Male</li>
+            </ul>
+        </li>
+    </ul>
+    <table border="1">
+        <caption id="score">考试成绩单</caption>
+        <thead>
+            <th>科目</th>
+            <th>姓名</th>
+            <th>成绩</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>物理</td>
+                <td>张金龙</td>
+                <td>99</td>
+            </tr>
+            <tr>
+                <td>数学</td>
+                <td>张三丰</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>英语</td>
+                <td>张扬</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>语文</td>
+                <td>张金宝</td>
+                <td>96</td>
+            </tr>
+            <tr>
+                <td>化学</td>
+                <td>张帅</td>
+                <td>97</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="2">阅卷人</td>
+            <td>David</td>
+        </tfoot>
+    </table>
+    <a href="#score">查询成绩</a>
+</body>
+
+</html>
