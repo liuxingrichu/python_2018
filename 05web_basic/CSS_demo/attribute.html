@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>属性选择器</title>
+    <style>
+        input[disabled] {
+            cursor: not-allowed;
+        }
+
+        a[href^="#"] {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text">
+    <br>
+    <input type="text" disabled>
+    <br>
+    <a href="">spring</a>
+    <a href="#">summer</a>
+    <a href="http://www.baidu.com" target="_blank" rel="noopener noreferrer">autumn</a>
+    <a href="#test">winter</a>
+</body>
+
+</html>

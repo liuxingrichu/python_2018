@@ -24,7 +24,7 @@
 
 
 	注意：
-		CSS文件中，两个配置内容写在一起的方式为
+		CSS文件中，两个配置内容写在一起的方式
 		.box1, .box2{
 		
 		}
@@ -34,4 +34,9 @@
 	.css-post {
 	    position: relative;
 	    top: -295px;
+	}
+
+	/* 选中同时有origin和css-front的class属性值的元素 */
+	.origin.css-front{
+
 	}
