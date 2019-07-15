@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 任何盒模型以我指定的为准，任何框大小自己定 */
+    box-sizing: border-box;
+}
+
+a {
+    /* 去除a标签的默认样式 */
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    /* 内容占100%，使其页脚在页面的最下面 */
+    min-height: 100vh;
+}
+
+.container a:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}
+
+header {
+    color: #888;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #456ccc;
+    display: flex;
+    /* 通过空格，分为两部分 */
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    /* 除去ul的默认样式 */
+    list-style-type: none;
+}
+
+header nav li {
+    margin-right: 15px;
+}
+
+header button {
+    padding: 8px 25px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background: #456ccc;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    margin-right: 10px;
+    background: #eee;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.sidebar ul>li {
+    padding: 5px 0;
+}
+
+.done,
+.similar {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.done h3,
+.similar h3 {
+    border-bottom: 1px solid #333;
+}
+
+.done ul {
+    text-decoration: line-through;
+}
+
+.similar ul {
+    font-weight: bold;
+}
+
+.main {
+    flex: 4;
+    padding: 10px;
+    background: #eee;
+}
+
+.main h2 {
+    font-size: 32px;
+    margin: 10px;
+    color: #456ccc;
+    border-bottom: 1px solid #222;
+}
+
+input[type=checkbox] {
+    /* 放大显示框 */
+    zoom: 180%;
+}
+
+.main li {
+    font-size: 30px;
+    list-style-type: none;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.today-list {
+    background: #fff;
+}
+
+.add {
+    background: #fff;
+    height: 200px;
+}
+
+.add-item {
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.add-item p {
+    position: absolute;
+    right: 35%;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+.add-item input {
+    zoom: 150%;
+    text-align: center;
+}
+
+.add-item input[type=text] {
+    width: 65%;
+}
+
+.add-item input[type=submit] {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.add-item input[type=reset] {
+    width: 50px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 10px;
+    padding: 20px 0;
+    background-color: #456ccc;
+}
+
+footer p {
+    color: #434343;
+    font-size: 12px;
+    padding: 10px;
+}

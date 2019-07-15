@@ -73,7 +73,7 @@
 		19. [从设计到开发的流程](05web_basic/CSS3/day14.md)
 		20. [案例：明信片开发：正面/反面](05web_basic/CSS3/day15.md)
 		21. [案例：动画猫](05web_basic/CSS3/day16.md)
-		22. 
+		22. [案例：备忘录](05web_basic/CSS3/day17.md)
 	2. [JavaScript环境vscode部署](05web_basic/day032.md)
 7. Django
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)
