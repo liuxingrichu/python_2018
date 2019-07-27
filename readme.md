@@ -81,3 +81,8 @@
 	3. [django官网文档之三：模板文件 模板优化](07Django/day003.md)
 	4. [django官网文档之四：重构代码 竞争条件](07Django/day004.md)
 	5. [案例：Django显示静态网页](07Django/day005.md)
+	6. [Django简介](07Django/day006.md)
+	7. [Django V2.2版本中的正则表达式的使用](07Django/day007.md)
+	8. [任意IP地址访问服务器](07Django/day007.md)
+	9. [Django V2.2版本的admin界面汉化](07Django/day007.md)
+	8. [案例：Django的数据库操作]()
