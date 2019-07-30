@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>测试文件</title>
+    <style>
+        p {
+            text-indent: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>hello，Django.</h3>
+    <h3>模板语言：变量用法</h3>
+    <h3>当前时间：{{now_time}}</h3>
+
+    <h3>模板语言：字典输出（请求头）</h3>
+    <h3>请求头</h3>
+    {% for k,v in request.headers.items %}
+    <p><strong>{{k}} : </strong>{{v}}</p>
+    {% endfor %}
+    <br>
+
+    <h3>模板语言：字典输出（普通字典）</h3>
+    {% for k,v in inform.items %}
+    <p><strong>{{k}} : </strong>{{v}}</p>
+    {% endfor %}
+
+    <h3>获取字典中的一个值</h3>
+    <p>姓名：{{inform.name}}</p>
+
+    <h3>模板语言：列表循环输出</h3>
+    {% for i in list_test %}
+    <p>{{i}}</p>
+    {% endfor %}
+
+    <h3>获取列表中的一个值</h3>
+    <p>
+        <strong>{{list_test.0}}</strong>
+        <strong>{{list_test.1}}</strong>
+    </p>
+</body>
+
+</html>
