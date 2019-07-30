@@ -85,4 +85,6 @@
 	7. [Django V2.2版本中的正则表达式的使用](07Django/day007.md)
 	8. [任意IP地址访问服务器](07Django/day007.md)
 	9. [Django V2.2版本的admin界面汉化](07Django/day007.md)
+	10. [其他电脑设备访问服务器](07Django/day007.md)
+	11. [Django模板语言：实现数据前后台交互](07Django/day008.md)
 	8. [案例：Django的数据库操作]()
