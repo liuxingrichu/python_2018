@@ -10,6 +10,7 @@
 	6. [CentOS 7 之搭建虚拟环境、jupyter环境](01setup_env/day006.md)
 	7. [线上代码调试](01setup_env/day007.md)
 	8. [实现vscode配置跨设备传输](01setup_env/day008.md)
+	9. [vscode的python代码自动排版](01setup_env/day009.md)
 
 2. 办公自动化
 	1. [word](03automate/day001.md)
@@ -87,4 +88,7 @@
 	9. [Django V2.2版本的admin界面汉化](07Django/day007.md)
 	10. [其他电脑设备访问服务器](07Django/day007.md)
 	11. [Django模板语言：实现数据前后台交互](07Django/day008.md)
-	8. [案例：Django的数据库操作]()
+	12. [Django的数据库常用操作](07Django/day009.md)
+	13. [APP应用注册](07Django/day010.md)
+	14. [在管理页面注册APP应用数据库类](07Django/day010.md)
+	15. []()
