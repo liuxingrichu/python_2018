@@ -1,5 +1,7 @@
 ### 练习题清单 ###
 1. 条件语句和循环语句 
+	1. [用户认证](base/user_login.py)
+	2. [数字猜谜游戏](base/guess_number.py)
 2. 数据结构
 	1. 列表
 		1. [实现对列表数据排序](data_structure/data_sort.py)
@@ -10,6 +12,7 @@
 		1. [字符串转换](data_structure/string_change.py)
 		2. [输入整数有序输出](data_structure/sort_print.py)
 		3. [乘法口诀表](data_structure/multiply_table.py)
+		4. [九九乘法表](data_structure/multi_nine.py)
 	3. 字典
 		1. [删除列表中的重复元素](data_structure/del_repeat_element.py)
 		2. [三层菜单](data_structure/three_menu.py)
@@ -17,12 +20,24 @@
 		1. [购物车](data_structure/shopping_cart.py)
 3. 函数
 	1. [二分查找](function/binary_search.py)
+	2. [删除列表中的重复元素](function/del_repeat.py)
+	3. [列表元素偶数之和](function/even_element.py)
+	4. [斐波那契数列](function/fib_number.py)
+	5. [函数版购物车](function/shopping_trolley.py)
+	6. [阶乘](function/n_factorial.py)
 4. 类
+	1. [斐波那契数列](class_practice/fib_sequence.py)
+	2. [列表元素偶数之和](class_practice/even_sum.py)
+	3. [列表元素去重](class_practice/del_repeat_content.py)
+	4. [二分查找](class_practice/binary_search.py)
+	5. [阶乘](class_practice/get_factorial.py)
 5. 模块
 	1. [验证码](module/identify_code.py)
 	2. [耗时统计](module/time_consume.py)
 	3. [动态时间](module/dynamic_time.py)
 	4. [定时时间](module/fix_time.py)
+	5. [自动化生成项目目录结构](module/make_project.py)
+	6. [自动化生成项目结构](module/make_project_all.py)
 5. 绘图
 	1. [小猪佩奇](turtle_practice/pig.py)
 	2. [同心圆](turtle_practice/circle.py)
