@@ -92,4 +92,8 @@
 	13. [APP应用注册](07Django/day010.md)
 	14. [在管理页面注册APP应用数据库类](07Django/day010.md)
 	15. [数据库的命令行交互操作](07Django/day011.md)
-	16. 
+
+8. 爬虫
+	1. [爬虫基础](08reptile/day001.md)
+	2. [爬虫一般流程](08reptile/day002.md)
+	3. [requests模块](08reptile/day002.md)
