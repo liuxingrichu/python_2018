@@ -97,3 +97,6 @@
 	1. [爬虫基础](08reptile/day001.md)
 	2. [爬虫一般流程](08reptile/day002.md)
 	3. [requests模块](08reptile/day002.md)
+	4. [bs4模块](08reptile/day003.md)
+	5. [csv模块](08reptile/day004.md)
+	6. [](08reptile/day005.md)
