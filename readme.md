@@ -75,7 +75,20 @@
 		20. [案例：明信片开发：正面/反面](05web_basic/CSS3/day15.md)
 		21. [案例：动画猫](05web_basic/CSS3/day16.md)
 		22. [案例：备忘录](05web_basic/CSS3/day17.md)
-	2. [JavaScript环境vscode部署](05web_basic/day032.md)
+	4. JavaScript
+		1. [JavaScript开发环境配置](05web_basic/JavaScript/day001.md)
+		2. [前端三元素](05web_basic/JavaScript/day001.md)
+		3. [JavaScript与宿主环境的关系](05web_basic/JavaScript/day001.md)
+		4. [谷歌浏览器内核](05web_basic/JavaScript/day001.md)
+		5. [JS在前端的使用方式](05web_basic/JavaScript/day002.md)
+		6. [JS调试方法、JS组成三部分](05web_basic/JavaScript/day002.md)
+		7. [ES6简介、ECMAScript和JavaScript的关系](05web_basic/JavaScript/day002.md)
+		8. []()
+
+
+
+
+
 7. Django
 	1. [django官网文档之一：环境配置 验证 创建工程 运行 创建应用 数据库配置](07Django/day001.md)
 	2. [django官网文档之二：配置管理用户 管理界面注册APP 配置不同视图 视图函数中的常用方法](07Django/day002.md)
