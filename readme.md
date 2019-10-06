@@ -88,8 +88,10 @@
 		10. [DOM（Document Object Model）：element 元素](05web_basic/JavaScript/day005.md)
 		11. [DOM（Document Object Model）：属性](05web_basic/JavaScript/day006.md)
 		12. [DOM（Document Object Model）：CSS](05web_basic/JavaScript/day007.md)
-		13. [JS基本数据结构：Number和布尔值](05web_basic/JavaScript/day008.md)
-		14. 
+		13. [JS内置类型：Number和布尔值](05web_basic/JavaScript/day008.md)
+		14. [JS内置类型：字符串string](05web_basic/JavaScript/day009.md)
+		15. [JS内置类型：null和undefined](05web_basic/JavaScript/day010.md)
+		16. []()
 
 
 
