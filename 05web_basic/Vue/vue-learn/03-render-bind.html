@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .active{
+            background-color: yellow;
+        }
+        .error{
+            color:red;
+            border:1px solid red;
+            font-size: 20px;
+        }
+    </style>
+    <title>vue-03-渲染和绑定</title>
+</head>
+<body>
+    <div id="app">
+        <div v-if="isShow">
+            This is v-if of true
+        </div>
+        <div v-else>
+            This is v-if of false
+        </div>
+
+        <div v-if="username=='Tom'">
+            This is v-if which username is Tom.
+        </div>
+        <div v-else-if="username=='Lucy'">
+            This is v-if which username is Lucy.
+        </div>
+        <div v-else>
+            This is v-if which username is {{ username}}.
+        </div>
+
+        <h2>v-show</h2>
+        <div v-show="true">
+            v-show is true.
+        </div>
+        <div v-show="false">
+            v-show is false.
+        </div>
+
+        <hr>
+        <h2>v-for</h2>
+        <ul>
+            <li v-for="todo in todolist">
+                {{ todo.date }} :{{ todo.thing }}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="(todo, index) in todolist" :key="todo.id">
+               {{ index }} -- {{ todo.date }} :{{ todo.thing }}
+            </li>
+        </ul>
+        <ul>
+            <li v-for="(item, key) in user" :key="todo.id">
+                {{ key }} : {{ item }}
+            </li>
+        </ul>
+
+        <hr>
+        <h2>v-bind</h2>
+        <p class="active">This is demo for class</p>
+        <p class="error">This is demo for class</p>
+        <p v-bind:class="test1">test one</p>
+        <p :class="test2">test two</p>
+        <p :class="[activeClass, errorClass]">test three</p>
+
+        <hr>
+        <h2>v-model双向绑定</h2>
+        <input v-model="message" placeholder="edit me">
+        <p>message is: {{ message }}</p>
+        <input v-model.lazy="log" placeholder="edit me">
+        <p>log is: {{ log }}</p>
+        <input v-model.number="num" placeholder="edit me">
+        <p>num is: {{ num }}</p>
+        <input v-model.trim="trimstr" placeholder="edit me">
+        <p>trimstr is: {{ trimstr }}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/start.js"></script>
+</body>
+</html>

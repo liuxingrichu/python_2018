@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue-template</title>
+</head>
+<body>
+    <div id="app">
+        {{ message.split('').reverse().join('') }}
+        <div>
+            {{ name + '-homework' }}
+        </div>
+        <div>
+            {{ todo }}
+        </div>
+        <h3>Are you busy?</h3>
+        <p>{{ isBusy ? 'very busy':'general' }}</p>
+        <div>
+            myhtml display: {{ myhtml }}
+        </div>
+        <div>
+            myhtml display: <span v-html="myhtml"></span>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/start.js"></script>
+</body>
+</html>
