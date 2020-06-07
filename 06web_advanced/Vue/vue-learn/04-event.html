@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+    <div id="app">
+        <h2>event</h2>
+        <button v-on:click="counter-=1">minus one</button>
+        <button @click="counter-=1">@minus one</button>
+        <p>press button: counter={{ counter }}</p>
+
+        <hr>
+        <h2>function</h2>
+        <button @click="greet">Greet</button>
+        <input type="text" v-model="message">
+        <button @click="say(message)">display {{ message }}</button>
+
+        <h2>stop event spread</h2>
+        <div @click="say('This is the upper div')">
+            <input type="text" v-model="message">
+            <button @click.stop="say(message)">display {{ message }}</button>
+        </div>
+
+        <hr>
+        <h2>prevent default action</h2>
+        <form action="">
+            <input type="text">
+            <input type="submit" value="submit" @click.prevent="submit('submit data')">
+        </form>
+
+        <hr>
+        <input type="text" @keyup.enter="submit('click enter')">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/event.js"></script>
+</body>
+</html>
