@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            width: 60%;
+            margin: 0 auto;
+        }
+    </style>
+    <title>component</title>
+</head>
+
+<body>
+    <div id="blog">
+        <div class="container">
+            <h2 v-icolor>blog list</h2>
+            <blog-post v-for="post in posts" :key="post.id" :title="post.title" :content="post.content"></blog-post>
+            <blog-header :title="title"></blog-header>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/blog.js"></script>
+
+</body>
+
+</html>
